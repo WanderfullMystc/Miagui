@@ -1,0 +1,43 @@
+body{
+    font: normal 15px Arial;
+    display: flex;
+
+}
+
+h1 {
+    text-align: center;
+
+}
+
+#itens_section {
+    display: flex;
+
+}
+
+table {
+    position: relative;
+    padding: 15px;
+    border:1px solid;
+    border-color: blueviolet;
+    border-radius: 15px;
+    width: 20%;    
+    
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+img {
+    display: flex;
+    width: 150px;
+
+}
+
+td {
+    font: bold;
+    color:rgb(27, 28, 28);
+    align-self: start;
+}
